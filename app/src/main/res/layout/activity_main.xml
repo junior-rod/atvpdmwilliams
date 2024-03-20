@@ -65,8 +65,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_marginHorizontal="30dp"
-            android:text="75%" />
+            android:layout_marginHorizontal="40dp"
+            android:text="@string/_75" />
 
         <Button
             android:id="@+id/btCalcular"
@@ -76,6 +76,14 @@
             android:layout_marginVertical="20dp"
             android:backgroundTint="#CB584C"
             android:text="Calcular" />
+
+        <TextView
+            android:id="@+id/textMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Ainda não sei qual é a melhor."
+            android:textSize="16sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
