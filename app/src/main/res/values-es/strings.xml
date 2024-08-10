@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gas o Alcohol</string>
+    <string name="_75">75%</string>
+    <string name="descimg">una bomba de gasolina que ilustra la aplicación</string>
+    <string name="tv1">¿Gasolina o alcohol?</string>
+    <string name="et1">Precio de la Gasolina</string>
+    <string name="et2">Precio del alcohol</string>
+    <string name="bt1">Calcular</string>
+    <string name="tv2">Resultado</string>
+    <string name="resa">Resultado</string>
+    <string name="resg">Resultado</string>
+
+
+</resources>

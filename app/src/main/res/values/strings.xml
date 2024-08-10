@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Gas ou Álcool</string>
     <string name="_75">75%</string>
+    <string name="descimg">uma bomba de gasolina ilustrando o app</string>
+    <string name="tv1">Gasolina ou Álcool?</string>
+    <string name="et1">Preço da Gasolina</string>
+    <string name="et2">Preço da Álcool</string>
+    <string name="bt1">Calcular</string>
+    <string name="tv2">Resultado</string>
+    <string name="resa">Resultado</string>
+    <string name="resg">Resultado</string>
 </resources>

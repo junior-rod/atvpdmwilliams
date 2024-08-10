@@ -26,7 +26,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="83dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/descimg"
             android:paddingVertical="10dp"
@@ -42,7 +42,7 @@
             android:text="@string/tv1"
             android:textAlignment="center"
             android:textColor="@color/cortitulo"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <EditText
@@ -53,7 +53,7 @@
             android:ems="15"
             android:hint="@string/et1"
             android:inputType="numberDecimal"
-            android:paddingVertical="15dp"/>
+            android:paddingVertical="10dp"/>
 
         <EditText
             android:id="@+id/alcool"
@@ -63,7 +63,7 @@
             android:ems="15"
             android:hint="@string/et2"
             android:inputType="numberDecimal"
-            android:paddingVertical="15dp"
+            android:paddingVertical="10dp"
             android:singleLine="true" />
 
         <Switch
@@ -73,19 +73,17 @@
             android:layout_gravity="right"
             android:layout_marginHorizontal="5dp"
             android:text="@string/_75"
-            android:textSize="28sp"
-            android:padding="20dp"/>
+            android:textSize="24sp"/>
 
         <Button
             android:id="@+id/btCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginVertical="20dp"
             android:backgroundTint="#9C27B0"
             android:text="@string/bt1"
             android:textColorLink="#9C27B0"
-            android:textSize="24sp"/>
+            android:textSize="16sp"/>
 
         <TextView
             android:id="@+id/textMsg"
