@@ -10,8 +10,8 @@
 
     <LinearLayout
         android:id="@+id/resultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="728dp"
+        android:layout_height="1106dp"
         android:layout_marginStart="3dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="3dp"
@@ -25,8 +25,8 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="667dp"
+            android:layout_height="218dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/descimg"
             android:paddingVertical="10dp"
@@ -42,7 +42,7 @@
             android:text="@string/tv1"
             android:textAlignment="center"
             android:textColor="@color/cortitulo"
-            android:textSize="25sp"
+            android:textSize="50sp"
             android:textStyle="bold" />
 
         <EditText
@@ -50,20 +50,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="none"
-            android:ems="15"
+            android:ems="100"
             android:hint="@string/et1"
             android:inputType="numberDecimal"
-            android:paddingVertical="15dp"/>
+            android:textSize="40sp"
+            android:paddingVertical="15dp" />
 
         <EditText
             android:id="@+id/alcool"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
-            android:ems="15"
+            android:ems="100"
             android:hint="@string/et2"
             android:inputType="numberDecimal"
             android:paddingVertical="15dp"
+            android:textSize="40sp"
             android:singleLine="true" />
 
         <Switch
@@ -72,9 +74,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginHorizontal="5dp"
+            android:padding="20dp"
             android:text="@string/_75"
-            android:textSize="28sp"
-            android:padding="20dp"/>
+            android:textSize="28sp" />
 
         <Button
             android:id="@+id/btCalcular"
@@ -85,7 +87,7 @@
             android:backgroundTint="#9C27B0"
             android:text="@string/bt1"
             android:textColorLink="#9C27B0"
-            android:textSize="24sp"/>
+            android:textSize="40sp" />
 
         <TextView
             android:id="@+id/textMsg"
@@ -93,7 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/tv2"
-            android:textSize="26sp" />
+            android:textSize="40sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
